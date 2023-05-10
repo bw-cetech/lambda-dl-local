@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.cetech_logo {
+  color: white;
+  padding: 100px;
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+
+.snowman_icon {
+  position: absolute;
+  width: 15%;
+  right: 0px;
+  bottom: 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34; /* controls the background colour of app (upper/header section) */
+  height: 100;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.runPython{
+    display: inline-block;
+    margin-right: 0.1em;
+}
+
